@@ -64,7 +64,7 @@ const Home = () => {
           <h1 className="text-[#00ff66] font-semibold">
             Email Status{" "}
             <span className="text-white font-normal mx-5">
-              {dets.isVerified}
+              {dets.isVerified === "true" && "Verified"}
             </span>{" "}
           </h1>
         </div>
